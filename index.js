@@ -53,6 +53,7 @@ module.exports.butCanIHaveItForDinner =
       "and as a snack... and pretty much whenever you want... " +
       "I guess that includes dinner too."
   }
+
 module.exports.whichMilkCanIHaveItWith =
   function* getMilkCombinations() {
     yield "with 2% milk"
@@ -62,5 +63,5 @@ module.exports.whichMilkCanIHaveItWith =
     yield "with soy milk"
     yield "with cinnamon milk"
     yield "with your favorite milk"
-    yield "or even dry"
+    return "or even dry"
   }
