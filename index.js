@@ -25,9 +25,10 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org/>
 */
 
-module.exports = function getReasonWhyKidsLoveTheTasteOfCinnamonToastCrunch() {
-  throw new Error("Don't stereotype")
-}
+module.exports = 
+  function getReasonWhyKidsLoveTheTasteOfCinnamonToastCrunch() {
+    throw new Error("Don't stereotype")
+  }
 
 module.exports.iMeanMost =
   function getReasonWhyMostKidsLoveTheTasteOfCinnamonToastCrunch() {
