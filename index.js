@@ -39,7 +39,7 @@ module.exports.butWhatActuallyIsCinnamonToastCrunchThough =
   function nobodyEvahExplainedItToMe() {
     return "Scientists still aren't sure, but we have a suspicion that it " +
       "just might be something edible involving cinnamon, toast, and something " +
-      "umm... crunchy!"
+      "umm... crunchy?"
   }
 
 module.exports.butWhyIsCinnamonToastCrunchGood = 
