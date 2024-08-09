@@ -25,10 +25,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org/>
 */
 
-module.exports = 
-  function getReasonWhyKidsLoveTheTasteOfCinnamonToastCrunch() {
-    throw new Error("Don't stereotype")
-  }
+module.exports = function getReasonWhyKidsLoveTheTasteOfCinnamonToastCrunch() {
+  throw new Error("Don't stereotype")
+}
 
 module.exports.iMeanMost =
   function getReasonWhyMostKidsLoveTheTasteOfCinnamonToastCrunch() {
@@ -38,22 +37,23 @@ module.exports.iMeanMost =
 module.exports.butWhatActuallyIsCinnamonToastCrunchThough =
   function nobodyEvahExplainedItToMe() {
     return "Scientists still aren't sure, but we have a suspicion that it " +
-      "just might be something edible involving cinnamon, toast, and something " +
-      "umm... crunchy?"
+      "just might be a cereal involving cinnamon, toast, and something " +
+      "crunchy!"
   }
 
 module.exports.butWhyIsCinnamonToastCrunchGood = 
   function nobodyEvahExplainedThisToMeEither () {
-    return "It's simply a fact of life, you know? Birds fly, dogs walk, " +
-      "giraffes are tall, Cinnamon Toast Crunch is good."
+    return "It's simply a fact of life, you know? Birds fly, gravity falls, " +
+      "stevens universe, Cinnamon Toast Crunch is good."
   }
 
 module.exports.butCanIHaveItForDinner = 
   function nobodyToldMeThatYouCouldnt() {
     return "Haven't heard of it, but you can have it for breakfast... and lunch... " + 
       "and as a snack... and pretty much whenever you want... " +
-      "Maybe then you can have it for dinner as well!"
+      "I guess that includes dinner too."
   }
+
 
 module.exports.whichMilkCanIHaveItWith =
   function* getMilkCombinations() {
