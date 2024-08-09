@@ -38,21 +38,21 @@ module.exports.iMeanMost =
 module.exports.butWhatActuallyIsCinnamonToastCrunchThough =
   function nobodyEvahExplainedItToMe() {
     return "Scientists still aren't sure, but we have a suspicion that it " +
-      "just might be a cereal involving cinnamon, toast, and something " +
-      "crunchy!"
+      "just might be something edible involving cinnamon, toast, and something " +
+      "umm... crunchy!"
   }
 
 module.exports.butWhyIsCinnamonToastCrunchGood = 
   function nobodyEvahExplainedThisToMeEither () {
-    return "It's simply a fact of life, you know? Birds fly, gravity falls, " +
-      "stevens universe, Cinnamon Toast Crunch is good."
+    return "It's simply a fact of life, you know? Birds fly, dogs walk, " +
+      "giraffes are tall, Cinnamon Toast Crunch is good."
   }
 
 module.exports.butCanIHaveItForDinner = 
-  function nobodyToldMeYouThatYouCould() {
+  function nobodyToldMeThatYouCouldnt() {
     return "Haven't heard of it, but you can have it for breakfast... and lunch... " + 
       "and as a snack... and pretty much whenever you want... " +
-      "I guess that includes dinner too."
+      "Maybe then you can have it for dinner as well!"
   }
 
 module.exports.whichMilkCanIHaveItWith =
@@ -64,5 +64,6 @@ module.exports.whichMilkCanIHaveItWith =
     yield "with soy milk"
     yield "with cinnamon milk"
     yield "with your favorite milk"
-    return "or even dry"
+    return "or even dry."
+    // console.log("Dry! WHAT! How dare you!")
   }
