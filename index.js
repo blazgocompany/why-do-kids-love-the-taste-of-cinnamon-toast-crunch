@@ -64,5 +64,5 @@ module.exports.whichMilkCanIHaveItWith =
     yield "with soy milk"
     yield "with cinnamon milk"
     yield "with your favorite milk"
-    return "or even dry"
+    yield "or even dry"
   }
